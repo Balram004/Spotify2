@@ -1,0 +1,79 @@
+.subscription-card {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #181818;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-header {
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-header h2 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.card-header p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #f2f2f2;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h4 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #1db954;
+}
+
+.card-body p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 1px solid #282828;
+}
+
+.cancel-btn,
+.upgrade-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cancel-btn {
+    background-color: #ff4d4d;
+    color: #ffffff;
+}
+
+.cancel-btn:hover {
+    background-color: #ff6666;
+}
+
+.upgrade-btn {
+    background-color: #1db954;
+    color: #ffffff;
+}
+
+.upgrade-btn:hover {
+    background-color: #1ed760;
+}

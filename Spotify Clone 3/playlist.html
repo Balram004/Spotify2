@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    <link rel="stylesheet" href="playlist.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Your Playlist</h1>
+        </header>
+
+        <section class="playlist">
+            <div class="song-card">
+                <h2>Song Title 1</h2>
+                <p>Artist Name</p>
+                <audio class="audio-player" id="song1" src="songs/song1.mp3"></audio>
+                <button class="play-button" onclick="togglePlay('song1')">Play</button>
+            </div>
+
+            <div class="song-card">
+                <h2>Song Title 2</h2>
+                <p>Artist Name</p>
+                <audio class="audio-player" id="song2" src="songs/song2.mp3"></audio>
+                <button class="play-button" onclick="togglePlay('song2')">Play</button>
+            </div>
+
+            <div class="song-card">
+                <h2>Song Title 3</h2>
+                <p>Artist Name</p>
+                <audio class="audio-player" id="song3" src="songs/song3.mp3"></audio>
+                <button class="play-button" onclick="togglePlay('song3')">Play</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Your Music Site</p>
+    </footer>
+
+    <script src="playlist.js"></script>
+</body>
+
+</html>
